@@ -1,0 +1,48 @@
+#header {
+    font-family: 'Inconsolata', monospace;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.main {
+    position: relative;
+    margin: 90px auto;
+    font-family: 'Space Mono', monospace;
+}
+
+#main-content {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+}
+
+.btn-dark {
+    background: #333333;
+    border-radius: 0;
+    font-size: 14px;
+    width: 216px;
+    height: 68px;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 39px;
+}
+
+@media screen and (max-width: 576px) {
+    #header {
+        font-size: 24px;
+    }
+
+    #main-content {
+        font-size: 42px;
+        line-height: 71.09px;
+        letter-spacing: -3.5%;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 26.66px;
+    }
+
+}
